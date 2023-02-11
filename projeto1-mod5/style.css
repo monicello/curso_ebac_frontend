@@ -7,36 +7,42 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;   
     box-sizing: border-box;
+    font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    padding: 16px 30px;
-    background-color: #BD54BF;
-
+main {
+    background-image: linear-gradient(to top, white, #f6b110a5);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
 }
 
-header > nav > li {
-    display: inline;
-    margin-left: 16px;
-    font-size: 24px;
+header {
+    background-color: #BD54BF;
+    padding: 5px 0px;
+}
 
+nav {
+    display: inline;
+    margin-right: 30px;
+    font-size: 16px;
 }
 
 h1 {
+    margin-top: 10px;
+    margin-left: 30px;
     font-family: var(--titulo);
     font-size: 5.0vw;
-    color: #F4DFC4;
-    margin-left: 10px;
-
+    color: #F4DFC4
 }
 
 li {
     display: inline;
-    margin-left: 15px;
+    margin-left: 15px;        
 }
 
 li > a {
@@ -55,30 +61,37 @@ li > a:hover {
     width: 100%;
     margin: 0px auto;
     padding: 15px;
-    display: flex;
+    display: flex;   
     align-items: center;
     justify-content: space-between;
-
 }
+
+.container p {
+    padding-right: 0px;
+}
+
 .container > div {
     text-align: justify;
-    margin-bottom: auto;
-    padding-left: 30px;
+    padding-left: 15px;
 }
 
-h2 {
+h2, h3{
     font-variant: small-caps;
+    font-size: 1.3em;
 }
 
 #fprincipal {
-    max-width: 30vw;
-    max-height: 25vw;
+    width: 275px;
+    height: 275px;
+    margin: 0px;
+    padding: 0px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.436);
 }
 
 #chanel {
     width: 40px;
     padding-top: 10px;
+    margin-left: -10px;
 }
 
 #givenchy {
@@ -93,6 +106,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     font-size: 13px;
+    margin-top: 30px;
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -102,21 +116,33 @@ form textarea,
 form button {
     display: block;
     width: 320px;
+    resize: none;
+}
+#contato {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
 }
 
 #social-links img {
     height: 24px;
-}
-
-#contato {
-    margin-top: 10px;
-    margin-left: 30px;
+    margin-top: 20px;
+    margin-left: -15px;
 }
 
 #redessociais {
     text-align: center;
-
+    padding-top: 5px;
 }
 
+#venha h3 {
+    padding-top: 5px;
+    margin-left: 20px;
+}
 
-
+#venha p {
+    color: #d59976;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 20px;
+}
