@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    text-align: center;
+}
+
+body {
+    background-color: beige;
+}
+
+div {
+    min-width: 370px;
+    max-width: 100px;
+    margin: auto;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-radius: 10px 10px 10px 10px;
+}
+
+#but {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 25px;
+    width: 100px;    
+}

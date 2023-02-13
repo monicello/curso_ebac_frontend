@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário</title>
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
+    <div>
+        <h1>Validação de dois números</h1>
+        <form id="formulario">
+            <input type="number" id="numA" required placeholder="Número A">
+            <input type="number" id="numB" required placeholder="Número B">
+            <p><button id="but" type="submit">Validar</button></p>
+            <p id="msg"></p>
+        </form>
+    </div>
     <script src="script/script.js"></script>
 </body>
 </html>
