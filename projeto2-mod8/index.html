@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>&#x260E Contatos</h1>
+        </header>
+        <form>
+            <input type="name" required placeholder="Nome" id="name">
+            <input type="number" required placeholder="Telefone" id="number">
+            <input id="add" type="button" value="Adicionar +" onclick="adicionar()">
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th id="nome">
+                        Nome
+                    </th>
+                    <th id="telefone">
+                        Telefone
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td id="contatos"><strong>Contatos</strong></td>
+        
+                    <td id="numCon"><strong>0</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
