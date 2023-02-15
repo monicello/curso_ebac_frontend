@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: darkslategray;
+}
+
+body {
+    text-align: center;
+    margin: 0px auto;
+    padding-top: 170px;   
+}
+
+input {
+    margin-top: 20px;
+    height: 25px;
+    width: 200px;
+
+}
+
+button {
+    background-color: darkcyan;
+    color: white;
+    height: 28px;
+    width: 80px;
+    
+}
+
+button:hover {
+    background-color: rgba(0, 139, 139, 0.701);
+    cursor: pointer;
+}
+
+li {
+    list-style-position: inside;
+    padding-top: 20px;
+    cursor: pointer;
+}
