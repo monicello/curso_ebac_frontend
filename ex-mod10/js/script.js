@@ -29,11 +29,12 @@ $(document).ready(function(){
 
         submitHandler: function(form) {
             alert('Enviado!')
+
         },
         invalidHandler: function(evento, validador) {
             let camposIncorretos = validador.numberOfInvalids()
             if (camposIncorretos) {
-                alert(`Existem ${camposIncorretos} campos incorretos`)
+                alert(`Existem ${camposIncorretos} campo(s) incorreto(s)`)
             }
         }
     })
