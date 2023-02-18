@@ -34,7 +34,9 @@ header {
 
 nav li {
     display: inline;
+    font-size: 18px;
     font-style: normal;
+    font-weight: bold;
     list-style: none;
     padding: 10px;
 }
@@ -102,5 +104,104 @@ button {
     font-size: 1em;
     font-weight: bold;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
+}
+
+footer {
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 80%;
+    }
+
+    main .container-flex {
+        display: block;
+    }
+
+    #loja {
+        max-width: 100%;
+        margin-bottom: 0px;
+        margin-right: 0;
+
+    }
+
+    h2 {
+        margin-top: 30px;
+    }
+
+    .lista-tenis li {
+        max-width: 100%;
+        padding-top: 45px;
+    }
+
+    button {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .container {
+        max-width: 79%;
+    }
+
+    main .container-flex {
+        display: block;
+    }
+
+    #loja {
+        max-width: 100%;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    h2 {
+        margin-top: 30px;
+    }
+
+    #sobre-a-loja {
+        padding-bottom: 30px;
+    }
+    
+    #item-central1 {
+        margin: 0px 0%;
+    }
+        
+    #item-central2 {
+        margin: 0px;
+    }
+
+    .lista-tenis li {
+        display: inline;
+        max-width: 39%;
+        padding-top: 45px;
+    }
+
+    .lista-tenis h3 {
+        font-size: 1.4em;
+    }
+
+    button {
+        margin-bottom: 10px;
+        
+    }
+
+    #grid {
+        display: grid;
+        grid-template-columns: repeat(2, 48.75%);
+        column-gap: 2.5%;
+    }
+
+    .lista-tenis li {
+        max-width: 100%;
+    }
+    footer {
+        padding-top: 30px;
+    }
 }
