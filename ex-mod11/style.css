@@ -107,10 +107,6 @@ button {
     border-radius: 4px;
 }
 
-footer {
-    padding-top: 30px;
-}
-
 @media screen and (max-width: 767px) {
     .container {
         max-width: 80%;
@@ -201,6 +197,7 @@ footer {
     .lista-tenis li {
         max-width: 100%;
     }
+    
     footer {
         padding-top: 30px;
     }
