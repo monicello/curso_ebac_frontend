@@ -28,10 +28,19 @@ body {
     color: white;
 }
 
-.navbar-brand {
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
     font-family: var(--pacifico);
 }
 
-.navbar-toggler {
+#sobre-o-restaurante {
     background-color: #ffeae6;
+}
+
+.text-colored,
+span {
+    color: #e15f41;
 }
