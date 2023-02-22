@@ -15,20 +15,15 @@
             margin: auto;
         }
 
-        @font-face {
-            font-family: Harry Potter;
-            src: url(fonte/HARRYP__.TTF);
-        }
-
         body {
             background-color: rgb(6, 42, 42);
         }
 
         h1 {
             padding-top: 30px;
+            font-family: serif;
             color: white;
-            font-family: 'Harry Potter';
-            font-size: 6em;
+            font-size: 4em;
             text-align: center;
         }
 
@@ -36,6 +31,17 @@
             color: white;
             font-family: serif;
             text-align: center;
+            padding-top: 20px;
+            padding-bottom: 50px;
+        }
+
+        .card {
+            max-width: 300px;
+            margin: 0px auto 50px;
+        }
+
+        footer {
+            padding: 10px;
         }
 
     </style>
@@ -72,61 +78,52 @@
             </div>
         </div>
     </header>
-    <section>
-        <h1>Harry Potter</h1>
-        <h2>Conhecendo os personagens</h2>
-        <div class="row">
-            <div class="col-4">
-                <article class="card">
-                    <header class="card-header">
-                        Ermione Granger
-                    </header>
-                    <img src="imagens/card1.jpeg" alt="">
-                    <div class="card-body">
-                        <p>Hermione é uma brilhante e corajosa bruxa, amiga fiel de Harry Potter e Ron Weasley.</p>
-                        <a href="#" class="btn btn-dark">Leia mais</a>
-                    </div>
-                </article>
+    <div class="container">
+        <section>
+            <h1>Harry Potter</h1>
+            <h2>Conhecendo os personagens</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Ermione Granger
+                        </header>
+                        <img src="imagens/card1.jpeg" alt="">
+                        <div class="card-body">
+                            <p>Hermione é uma brilhante e corajosa bruxa, amiga fiel de Harry Potter e Ron Weasley.</p>
+                            <a href="#" class="btn btn-dark">Leia mais</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Harry Potter
+                        </header>
+                        <img src="imagens/card2.jpeg" alt="">
+                        <div class="card-body">
+                            <p>Harry Potter é um bruxo órfão que descobre seu destino mágico e luta contra o Lorde das Trevas, Voldemort.</p>
+                            <a href="#" class="btn btn-dark">Leia mais</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Ron Weasley
+                        </header>
+                        <img src="imagens/card3.png" alt="">
+                        <div class="card-body">
+                            <p>Ron Weasley é o melhor amigo de Harry Potter, um bruxo leal e corajoso, membro da família Weasley. </p>
+                            <a href="#" class="btn btn-dark">Leia mais</a>
+                        </div>
+                    </article>
+                </div>
             </div>
-            <div class="col-4">
-                <article class="card">
-                    <header class="card-header">
-                        Harry Potter
-                    </header>
-                    <img src="imagens/card2.jpeg" alt="">
-                    <div class="card-body">
-                        <p>Harry Potter é um bruxo órfão que descobre seu destino mágico e luta contra o Lorde das Trevas, Voldemort.</p>
-                        <a href="#" class="btn btn-dark">Leia mais</a>
-                    </div>
-                </article>
-            </div>
-            <div class="col-4">
-                <article class="card">
-                    <header class="card-header">
-                        Ron Weasley
-                    </header>
-                    <img src="imagens/card3.png" alt="">
-                    <div class="card-body">
-                        <p>Ron Weasley é o melhor amigo de Harry Potter, um bruxo leal e corajoso, membro da família Weasley. </p>
-                        <a href="#" class="btn btn-dark">Leia mais</a>
-                    </div>
-                </article>
-            </div>
-
-
-
-
-        </div>
-
-    </section>
-
-
-
-            
-    
-
-
-
+        </section>
+    </div>
+    <footer>
+    </footer>
     <script src="lib/bootstrap.bundle.min.js"></script>
 </body>
 </html>
