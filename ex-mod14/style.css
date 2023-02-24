@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --amatic: 'Amatic SC', cursive;
+    --roboto: 'Roboto', cursive;
+}
+
+body {
+    font-family: var(--roboto);
+}
+
+.titulo {
+    font-family: var(--amatic);
+}
+
+.navbar {
+    background-color: #158501;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color:  white;
+    color: #852F08;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-servicos .nav-link.active:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: #158501;
+}
+
+span, .text-colored {
+    color: #F85002;
+}
+
+.titulo {
+    font-family: var(--amatic);
+}
+
+#sobre-o-petshop, #servicos {
+    background-color: #caffe2;
+}
+
+h2, h3 {
+    font-size: 2.5em;
+    color: #852F08;
+    font-family: var(--amatic);
+}
+
+.nav-servicos .nav-link.active,
+#fale-conosco #servicos button {
+    background-color: #158501;
+    color: white;
+}
+
+#servicos > p {
+    color: white;
+}
+
+
+.nav-link.active, .nav-link:hover {
+    background-color: #158501;
+    color: white;
+}
+
+.nav-link {
+    color: #158501;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#fale-conosco button {
+    background-color: #caffe2;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+
+
+
+
+

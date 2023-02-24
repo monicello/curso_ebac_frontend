@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 titulo fs-1 pb-2">PetShop da Pequena</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                    <ul class="nav nav-pills d-block d-md-flex">
+                        <li class="nav-item">
+                            <a href="#sobre-o-petshop" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o petshop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Nossos eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#servicos" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nossos serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco</a>
+                        </li>
+                    </ul>
+                </nav>            
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-petshop">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="imagens/carousel/carousel1.jpg" alt="Foto de um cão branco">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/carousel/carousel2.jpg" alt="Foto de um Golden">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/carousel/carousel3.jpg" alt="Foto de um cão no sofá">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <div class="carousel-control-prev-icon"></div>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <div class="carousel-control-next-icon"></div>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="imagens/istockphoto-930892884-612x612.jpeg" class="d-block w-100 rounded" alt="Foto de um cão no PetShop">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="titulo">
+                                Sobre o <span>PetShop</span>
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta consequuntur cumque sunt assumenda, inventore deleniti rerum repellat quaerat expedita, quidem ut quia. Totam amet accusamus ipsa esse vero quis ducimus. </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptatem provident distinctio quia totam repellendus non iste dolorum et ut exercitationem, debitis vel dolores porro temporibus nemo hic! Unde, laborum?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="titulo text-center">
+                        Diversão para <span>seu pet</span>
+                    </h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="imagens/eventos/evento1.jpg" alt="Cão na natureza" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-2">
+                            <i class="bi bi-brightness-high-fill"></i>
+                            Passeio na natureza
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit nesciunt praesentium reiciendis eum pariatur, eligendi quod ratione deserunt exercitationem! Qui commodi dicta, nesciunt porro excepturi tempore blanditiis at officiis id.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/eventos/evento2.jpeg" alt="Cão na piscina" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-2">
+                            <i class="bi bi-sunglasses"></i>
+                            Diversão na Piscina
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, minus. Fugiat cupiditate officiis totam eaque consequatur quibusdam blanditiis, alias ducimus recusandae labore veniam optio voluptatum doloremque in? Impedit, reprehenderit beatae?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="imagens/eventos/evento3.jpeg" alt="Cão na praia" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-2">
+                            <i class="bi bi-cup-straw"></i>
+                            Descanso na praia
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, dicta enim neque maiores, eos doloremque non vel rerum minus quod vitae! Accusamus dicta hic repudiandae nam quas temporibus, deleniti culpa?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="titulo text-center mb-5">Nossos <span>serviços</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-4">
+                        <nav class="nav nav-pills flex-column nav-servicos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#loja" class="fw-bold text-start nav-link text-colored active">Loja
+
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#banho-e-tosa" class="fw-bold text-start nav-link text-colored">Banho e Tosa
+
+                            </button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#hotelzinho" class="fw-bold text-start nav-link text-colored">Hotelzinho
+                            </button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-8">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="loja">
+                                <div class="row">
+                                    <div class="col">
+                                        <img class="d-block w-100" src="imagens/serviços/servico1.webp" alt="Cães no PetShop">
+                                        <h5 class="text-colored fw-bold mt-2">Loja</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="banho-e-tosa">
+                                <div class="row">
+                                    <div class="col">
+                                        <img class="d-block w-100" src="imagens/serviços/servico2.jpeg" alt="Cães no PetShop">
+                                        <h5 class="text-colored fw-bold mt-2">Banho e Tosa</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="hotelzinho">
+                                <div class="row">
+                                    <div class="col">
+                                        <img class="d-block w-100" src="imagens/serviços/servico3.jpeg" alt="Cães no PetShop">
+                                        <h5 class="text-colored fw-bold mt-2">Hotelzinho</h5>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="fale-conosco" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="titulo text-center mb-5">Fale <span>conosco</span></h2>
+                    <div class="row">
+                        <div class="col-md-7 mb-5">                        
+                            <form>
+                                <div class="mb-3 mt-3">
+                                    <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                    <input type="text" id="nome" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                    <input type="email" id="email" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                                    <input type="tel" id="nome" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label fw-bold text-colored">Seu mensagem</label>
+                                    <textarea class="form-control" id="mensagem" required></textarea>
+                                </div>
+                                <button type="submit" class="btn fw-bold">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="titulo fs-4 text-colored mt-3">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Redes sociais</h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-2 me-2">
+                                        <a href="#">
+                                            <i class="bi bi-instagram text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="titulo fs-4 text-colored">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço
+                                </h3>
+                                <p>
+                                    Rua Teste Exemplo nº145, Bairro Bootstrap - São Paulo - SP
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
