@@ -1,0 +1,15 @@
+{
+  "name": "curso_ebac_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ex-mod15/source/main.scss ex-mod15/build/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.58.3"
+  }
+}
