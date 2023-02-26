@@ -1,0 +1,1 @@
+function subtrair(r,t){return r-t}module.exports=subtrair;
