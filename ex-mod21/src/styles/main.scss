@@ -1,0 +1,20 @@
+@use 'apresentacao';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    &__container {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+
+body {
+    background-color: black;
+}
+
