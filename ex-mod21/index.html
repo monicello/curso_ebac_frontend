@@ -14,18 +14,79 @@
 <body>
     <header class="header">
         <div class="header__container">
-            <h1>
-                <img class="header__container__cabecalho" src="./src/imagens/header1.webp" alt="Filme Escape Room">
-            </h1>
-        </div>
-        <div>
-            <img src="./src/imagens/apresentacao.jpeg" alt="">
-        </div>
+            <div class="header__container__cabecalho">
+                <h1>
+                    <img src="./src/imagens/header1.webp" alt="Filme Escape Room">
+                </h1>
+            </div>
+        </div>        
     </header>
-    <section>
-        
+    <section class="container">
+        <div class="container__apresentacao">
+            <img class="container__apresentacao__foto" src="./src/imagens/apresentacao.jpeg" alt="">
+            <p  class="container__apresentacao__foto__texto">
+                "Escape Room" é um filme de suspense e terror psicológico lançado em 2019, dirigido por Adam Robitel. A trama segue seis estranhos que se encontram trancados em uma série de salas com armadilhas mortais que devem ser resolvidas para escapar com vida e ganhar um prêmio em dinheiro.
+            </p>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="atriz" class="shows__tabs__button shows__tabs__button--is--active">
+                Zoey Davis
+            </button>
+            <button data-tab-button="filme" class="shows__tabs__button">
+                Mais sobre o filme
+            </button>
+        </nav>
+        <ul data-tab-id="atriz" class="shows__list shows__list--is--active">
+            <p>
+                Zoey Davis é uma das personagens principais do filme "Escape Room". Ela é uma estudante universitária inteligente e introvertida, que é convidada a participar de um jogo de escape room com outros cinco estranhos. Zoey usa suas habilidades de resolução de problemas para ajudar a equipe a encontrar pistas e escapar das salas. Ao longo do filme, ela se torna mais confiante e assertiva, mostrando que tem coragem e determinação. Zoey é uma personagem bem desenvolvida e complexa que acrescenta muito à história do filme.
+            </p>
+            <li class="shows__list__item">
+                <img src="./src/imagens/personagem.jpg" alt="Zoey Davis">
+            </li>
+        </ul>
+        <ul data-tab-id="filme" class="shows__list">
+            <p>
+               À medida que o grupo tenta escapar das salas, eles descobrem que estão enfrentando um inimigo implacável que não tem intenção de deixá-los sair vivos. O filme é cheio de reviravoltas e surpresas, mantendo a tensão e o suspense até o final. O elenco do filme inclui Taylor Russell, Logan Miller, Deborah Ann Woll, Jay Ellis, Tyler Labine e Nik Dodani. O filme foi bem recebido pelo público e arrecadou mais de 150 milhões de dólares em todo o mundo.
+            </p>
+            <li class="shows__list__item">
+                <img src="./src/imagens/filme.webp" alt="Cena do filme">
+            </li>
+        </ul>
+        </ul>
+    </section>
+    <section class="info">
+        <h2>Informações</h2>
+        <ul class="info__questions">
+            <li class="info__questions__item">
+                <div class="info__questions__item__question" data-info-question>
+                    blablabla
+                </div>
+                <div class="info__questions__item__answer">
+                    <ul>
+                        <li>Fulano</li>
+                        <li>Fulano</li>
+                        <li>Fulano</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="info__questions__item">
+                <div class="info__questions__item__question" data-faq-question>
+                </div>
+                <div class="info__questions__item__answer">
+                    blablabla
+                    <ul>
+                        <li>Tal</li>
+                        <li>Tal</li>
+                        <li>Tal</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
     </section>
     <footer>
     </footer>
+    <script src="./dist/js/main.js"></script>
 </body>
 </html>

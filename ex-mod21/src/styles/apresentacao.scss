@@ -1,6 +1,39 @@
+@use 'variaveis';
+
 .header {
     &__container {
         display: flex;
         justify-content: flex-end;
+
+        &__cabecalho {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.container {
+    padding: 90px;
+    background-color: black;
+
+    &__apresentacao {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+
+        &__foto {    
+            max-width: 100%;
+            border: .5px solid variaveis.$corDaFonteSecundaria;     
+            border-radius: 10px;  
+
+            &__texto {
+                color: variaveis.$corDaFonte;
+                font-family: variaveis.$fontFamily;
+                font-size: variaveis.$fonteTexto;
+                text-align: justify;
+            }
+        }
     }
 }
