@@ -1,8 +1,7 @@
 @use 'variaveis';
 
 .info {
-    padding: 1vh 3vw;
-    min-height: 50vw;
+    padding: 5.6vw;
 
     h2 {
         color: variaveis.$corDaFonteSecundaria;
@@ -11,22 +10,44 @@
         text-transform: uppercase;
         text-align: center;
         font-weight: normal;
-        display: block;
         padding-bottom: 6vh;
+
+
+        @media (max-width: 768px) {
+            padding: 0px 0 24px;
+            font-size: 22px;
+            margin-top: 24px;
+        }
+
+        @media (min-width: 769px) and (max-width: 1023px) {
+            font-size: 42px;
+        }
     }
 
     &__questions {
+        font-family: variaveis.$fontFamily;
         border: 2px solid variaveis.$corDaFonteSecundaria;
 
         &__item {
             list-style: none;
+            color: variaveis.$corDaFonte;
             margin-bottom: 16px;
 
             &__question {
                 color: variaveis.$corDaFonte;
+                font-size: variaveis.$fonteTexto;
+                padding: 24px;
                 display: block;
                 cursor: pointer;
                 position: relative;
+
+                @media (max-width: 768px) {
+                    font-size: 22px;
+                }
+
+                @media (min-width: 769px) and (max-width: 1023px) {
+                    font-size: variaveis.$fonteSizeTitulo;
+                }
 
                 &::after {
                     content: '+';
@@ -39,44 +60,45 @@
                     font-size: 40px;
                 }
             }
-        }
 
-        &__answer {
-            color: variaveis.$fonteTexto;
-            height: 0;
-            overflow: hidden;
-            padding: 0 24px;
-            transition: height, 0.5s ease;
-        }
-
-        &--is-open {
-            .info__questions__item__question::after {
-                content: '-';
-            }
-
-            .info__questions__item__answer {
-                height: auto;
-                padding-bottom: 24px;
+            &__answer {
+                height: 0;
+                overflow: hidden;
+                padding: 0 24px;
                 transition: height, 0.5s ease;
+
             }
-        }
-
-        &__list {
-            list-style-type: disc;
-            margin-left: 38px;
-            margin-top: 16px;
-            line-height: 30px;
-            letter-spacing: 0.2px;
-
-            &__last {
-                list-style: none;
-                margin-left: 0px;
+    
+    
+            &--is-open {
+                .info__questions__item__question::after {
+                    content: '-';
+                }
+    
+                .info__questions__item__answer {
+                    height: auto;
+                    padding-bottom: 24px;
+                    transition: height, 0.5s ease;
+                }
+            }
+    
+            &__list {
+                color: variaveis.$corDaFonte;
+                font-size: 20px;
+                list-style-type: disc;
+                margin-left: 38px;
                 margin-top: 16px;
-                letter-spacing: .2px;
                 line-height: 30px;
+                letter-spacing: 0.2px;
+                
+                @media (max-width: 768px) {
+                    font-size: 20px;
+                }
+
+                @media (min-width: 769px) and (max-width: 1023px) {
+                    font-size: 2em;
+                }
             }
         }
-
-
     }
 }

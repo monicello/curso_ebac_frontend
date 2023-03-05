@@ -5,6 +5,7 @@
         display: flex;
         justify-content: flex-end;
 
+        
         &__cabecalho {
             img {
                 width: 100%;
@@ -17,22 +18,48 @@
     padding: 90px;
     background-color: black;
 
+    @media (max-width: 768px) {
+        padding: 0px 30px;
+    }
+    
     &__apresentacao {
         display: grid;
         align-items: center;
         grid-template-columns: 1fr 1fr;
         gap: 30px;
+        
+        @media (max-width: 768px) {
+            padding-top: 50px;
+            padding-bottom: 40px;
+            display: block;
+            max-width: 100%;
+        }
+
+        @media (min-width: 769px) and (max-width: 1023px) {
+            display: block;
+        }
 
         &__foto {    
             max-width: 100%;
             border: .5px solid variaveis.$corDaFonteSecundaria;     
             border-radius: 10px;  
 
+
             &__texto {
                 color: variaveis.$corDaFonte;
                 font-family: variaveis.$fontFamily;
                 font-size: variaveis.$fonteTexto;
                 text-align: justify;
+
+                @media (max-width: 768px) {
+                    padding-top: 30px;
+                    font-size: 20px;
+                }
+
+                @media (min-width: 769px) and (max-width: 1023px) {
+                    font-size: 32px;
+                    margin-top: 32px;
+                }
             }
         }
     }
