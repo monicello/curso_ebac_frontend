@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Aniversário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles/main.scss">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                Você está convidado(a) para o meu Aniversário que começa em... <br> <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Rua Lopes Costa nº 777 - Bairro Cidade Grande - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        11/07/2023 às 18h30hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Eu irei!
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--presente">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details event__primeiro">
+                <h2 class="event__details__title">Presentes</h2>
+                <p class="event__details__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur expedita dolorem dolor iste dicta quis rerum accusamus deleniti ea eaque saepe nostrum alias ratione sed, necessitatibus libero! Fugit, doloribus eveniet!</p>
+            </div>
+            <img class="event__image" src="../src/imagens/aniversario1.jpg" alt="Presentes">
+        </div>
+    </section>
+
+    <section class="event event--bolo event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Bolo</h2>
+                <p class="event__details__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur expedita dolorem dolor iste dicta quis rerum accusamus deleniti ea eaque saepe nostrum alias ratione sed, necessitatibus libero! Fugit, doloribus eveniet!</p>
+            </div>
+            <img class="event__image" src="../src/imagens/aniversario2.jpg" alt="Bolo">
+        </div>
+    </section>
+    <footer></footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
